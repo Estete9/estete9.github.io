@@ -1,0 +1,36 @@
+.header {
+  background-color: aquamarine;
+  display: flex;
+  border: 2px solid black;
+}
+
+.header-element {
+  border: 2px solid black;
+
+}
+
+.link-one {
+  margin-left: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+
+.hero-button {
+  width: fit-content;
+
+}
+
+.hero-subtext {
+    width: 35%;
+    border: 2px solid black;
+}
