@@ -139,8 +139,8 @@ body {
 /* Quote section */
 
 .main-quote {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
   background-color: #e5e7eb;
 }
 .quote-content {
@@ -165,3 +165,38 @@ body {
   font-size: 18px;
 }
 /* Quote section */
+/* Call to action section */
+.main-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.action-content {
+  display: flex;
+  background-color: #3882f6;
+  width: 1008px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 32px;
+  border-radius: 10px;
+}
+.action-texts {
+  display: flex;
+  flex-direction: column;
+  color: #e5e7eb;
+}
+.action-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.action-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+  padding: 4px 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* Call to action section */
